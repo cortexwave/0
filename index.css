@@ -1,0 +1,36 @@
+:root {
+  font-family: 'Manrope', sans-serif;
+  background-color: #020617;
+  color: #f8fafc;
+  overflow-x: hidden;
+}
+
+/* Hide default cursor on devices that have a mouse */
+@media (pointer: fine) {
+  body {
+    cursor: none;
+  }
+  a, button, input, textarea, select {
+    cursor: none;
+  }
+}
+
+/* Custom scrollbar for Chrome/Safari/Webkit */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+  color: transparent;
+}
